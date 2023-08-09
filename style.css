@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Change */
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1370px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/* Header css */
+
+.headerSection{
+    padding: 20px 0;
+}
+.logo{
+    width: 25%;
+}
+.logo h1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.menubar{
+    width: 50%;
+}
+.menubar ul{
+    margin-left: -60px;
+}
+.menubar ul li a{
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.signup{
+    width: 25%;
+}
+.Hbtn1{
+    font-size: 16px;
+    border: none;
+    color: #96BB7C;
+    font-weight: 700;
+    padding: 0 20px;
+    line-height: 34px;
+    cursor: pointer;
+}
+.Hbtn2{
+    font-size: 16px;
+    border: none;
+    background: #96BB7C;
+    font-weight: 700;
+    padding: 11px 20px;
+    line-height: 34px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.mainHeader {
+    background-image: url(./1/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 1000px;
+    background-position: 0% 16%;
+}
+.bottomHeader{
+    margin-top: 130px;
+}
+.bottomHeader h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #96BB7C;
+}
+.bottomHeader h1{
+    width: 542px;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 35px 0;
+}
+.bottomHeader h4{
+    width: 450px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Hbtn3{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border: none;
+    background: #96BB7C;
+    color: white;
+    margin-top: 30px;
+}
+.Hbtn4{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border: none;
+    border: 1px solid #96BB7C;
+    color: #96BB7C;
+    background: transparent;
+    margin-left: 10px;
+
+}
+
+/* banner css */
+
+.bannerSection{
+    padding: 50px 0;
+}
+.banner {
+    background: white;
+    padding: 50px 40px;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    margin-top: -185px;
+}
+.banner h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.banner span{
+    width: 50px;
+    display: inline-block;
+    border: 3px solid #ff8401;
+}
+.banner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+    width: 222px;
+}
+/* banner css 2 */
+
+.banner2image{
+    width: 50%;
+    text-align: center;
+}
+.banner2Text{
+    width: 35%;
+    margin-top: 80px;
+}
+.banner2Text span{
+    width: 94px;
+    display: inline-block;
+    border: 7px solid #ff8401;
+    margin-bottom: 35px;
+}
+.banner2Text h2{
+    width: 252px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.banner2Text p{
+    width: 351px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 20px;
+}
+.banner2Text h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #96BB7C;
+}
+
+/* package css */
+
+.packageSection{
+    padding: 160px 0;
+}
+.package1{
+    width: 50%;
+    margin-top: 65px;
+}
+.package1 span{
+    width: 94px;
+    display: inline-block;
+    border: 7px solid #ff8401;
+    margin-bottom: 35px;
+}
+.package1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.package1 p{
+    width: 351px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 20px;
+}
+.package1 h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #96BB7C;
+}
+.package2{
+    width: 50%;
+}
+.package2Image {
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./1/features-11-video-thumb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.package2Image span {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background: #96BB7C;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    display: inline-block;
+}
+.package2Image span .im{
+    margin-left: 30px;
+    margin-top: 19px;
+    font-size: 40px;
+    color: white;
+}
+/* services css */
+
+.serviceSection{
+    padding: 112px 0;
+}
+.allservices h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #96BB7C;
+    margin-bottom: 10px;
+}
+.allservices h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.allservices p{
+    width: 470px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 112px;
+}
+.service{
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.imageSection{
+    position: relative;
+}
+.imageSection img{
+    width: 100%;
+}
+.imageSection .sale{
+    position: absolute;
+    left: 6%;
+    top: 7%;
+    background: red;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+.icons{
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    bottom: 25px;
+}
+.imageSection .icons span {
+    display: inline-block;
+    background: white;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.serviceButtom{
+    padding: 25px;
+}
+.one{
+    font-size: 15px;
+    font-weight: 700;
+    color: #96BB7C;
+    margin-bottom: 12px;
+}
+.two{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 4px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.two i {
+    color: wheat;
+}
+.three{
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.three i{
+    color: rgb(0 0 0 / 50%);
+}
+.fore{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.serviceButtom p{
+    width: 182px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.serviceButtom h6 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.five{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.five span{
+    color: #FFAB71;
+}
+.six{
+    padding: 10px 20px;
+    border: 2px solid #96BB7C;
+    color: #96BB7C;
+    border-radius: 20px;
+}
+
+/* coursesSection css */
+
+.course1{
+    width: 50%;
+    text-align: center;
+}
+.course2{
+    width: 50%;
+    text-align: center;
+}
+.coursesSection{
+    padding: 160px 0;
+}
+.corseTop{}
+.corseTop h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: #96BB7C;
+    margin-bottom: 10px;
+}
+.corseTop h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.corseTop p{
+    width: 470px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 96px;
+}
+
+.courseimag{
+    margin-bottom: 15px;
+}
+.courseimag img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.courseicon{
+}
+.courseicon span{
+    color: yellowgreen;
+    display: inline-block;
+}
+.courseContain p{
+    width: 320px;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.courseContain h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+.courseContain h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* email Section */
+
+.emailSection{
+    background: #FFF2F3;
+    padding: 160px 0;
+    text-align: center;
+}
+.top{}
+.top h6{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.top h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.top p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 470px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.email{
+    height: 58px;
+    width: 688px;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+.submit{
+    width: 117px;
+    height: 58px;
+    padding: 15px 22.5px;
+    color: white;
+    background: #96BB7C;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: -1px;
+}
+/* footer top css */
+
+.FooterTop{
+    padding: 50px 0;
+}
+.deatails{
+    width: 21%;
+}
+.deatail{
+    width: 15%;
+    text-align: center;
+}
+.deatails h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.deatails ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.deatails ul li a{
+    font-size: 14px;
+    font-weight: 700px;
+}
+.deatail h5{
+    text-align: left !important;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.deatail h6{
+    font-size: 14px;
+    font-weight: 700px;
+    margin-bottom: 13px;
+}
+.deatail h6 i{
+    display: inline-block;
+    color: #96BB7C;
+    margin-right: 2px;
+}
+/* Footer Section */
+.footer{
+    padding: 25px 0;
+}
+.footerText h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+.footerText{
+    width: 50%;
+}
+.footericon a i{
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+.footericon{
+    width: 50%;
+    text-align: right;
+}
